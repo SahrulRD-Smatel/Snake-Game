@@ -26,6 +26,11 @@ body {
 }
 canvas {
   background-color: #181825;
+  width: 100%; /* Mengecilkan lebar canvas menjadi 80% dari container */
+  height: 700px; /* Tinggi canvas tetap atau bisa disesuaikan */
+  max-width: 700px; /* Maksimum lebar canvas */
+  border: 2px solid #e09bac; /* Tambahkan border jika ingin lebih jelas */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Efek bayangan */
 }
 .container {
   display: flex;
